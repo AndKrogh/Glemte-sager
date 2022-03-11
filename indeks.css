@@ -6,6 +6,7 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: white;
     font: "Proxima Nova Alt", Sans-serif;
 }
@@ -54,6 +55,7 @@ footer {
   box-shadow: 0px 5px 10px #d4d4d4;
   background-color: yellow;
   width: 80%;
+  height: 250px;
   border-radius: 10px;
   padding: 10px;
   display: grid;
@@ -68,17 +70,21 @@ footer {
 
 .glemteFeed h3 {
   grid-area: objekt;
+  z-index: 1;
 }
 
-.glemteFeed img {
+.glemteFeed img #ikonFeed {
   grid-area: ikonFeed;
-  width: 30%;
+  height: 150px;
+  z-index: 1;
 }
 .glemteFeed p #beskrivelseFeed {
   grid-area: beskrivelseFeed;
+  z-index: 1;
 }
 .glemteFeed p #lokationFeed {
   grid-area: lokationFeed;
+  z-index: 1;
 }
 
 #reserverKnap {
