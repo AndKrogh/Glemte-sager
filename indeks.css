@@ -6,3 +6,13 @@ footer {
   background-color: #05454E
   font: "Proxima Nova Alt", Sans-serif;
 }
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
