@@ -43,3 +43,7 @@ footer {
   font-size: 2rem;
   outline: none;
 }
+
+.knap1:hover {
+  box-shadow: inset 300 0 0 0 #F6E36D;
+}
