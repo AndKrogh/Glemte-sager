@@ -7,3 +7,13 @@ footer {
   font: "Proxima Nova Alt", Sans-serif;
   color: white;
 }
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
