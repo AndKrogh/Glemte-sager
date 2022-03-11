@@ -13,8 +13,14 @@ footer {
   background-color: #05454E;
   font: "Proxima Nova Alt", Sans-serif;
   color: white;
+  text-align: left;
 }
 
+.footertekst {
+  color: white;
+  line-height: normal;
+  text-align: left;
+}
 
 .container {
   display: flex;
@@ -24,6 +30,7 @@ footer {
   text-align: center;
   min-height: 100vh;
 }
+
 
 .knap1 {
   width: 300px;
