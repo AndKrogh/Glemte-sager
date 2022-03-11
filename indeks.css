@@ -29,5 +29,5 @@ footer {
   width: 300px;
   height: 100px;
   border: none;
-  color: @gulfarve;
+  background-color: var(--gul);
 }
