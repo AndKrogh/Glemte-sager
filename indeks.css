@@ -1,9 +1,3 @@
-:root {
-  --gul:#F6E36D;
-  --lilla: #F9BABB;
-  --blå: #05454E;
-  --hvid:#ffffff;
-}
 
 body {
 <<<<<<< HEAD
@@ -17,9 +11,17 @@ footer {
   text-align: left;
 }
 
+:root {
+  --gul:#F6E36D;
+  --lilla: #F9BABB;
+  --blå: #05454E;
+  --hvid:#ffffff;
+}
+
+
 .footertekst {
   color: white;
-  line-height: normal;
+  line-height: 1;
   text-align: left;
 }
 
