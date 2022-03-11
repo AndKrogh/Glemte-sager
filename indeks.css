@@ -6,6 +6,7 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: white;
     font: "Proxima Nova Alt", Sans-serif;
 }
@@ -47,4 +48,52 @@ footer {
 
 .knap1:hover {
   box-shadow: inset 300 0 0 0 #F6E36D;
+}
+
+
+.glemteFeed {
+  margin: 10%;
+  box-shadow: 0px 5px 10px #d4d4d4;
+  background-color: yellow;
+  width: 80%;
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr 0.5fr;
+  grid-template-areas:
+  "objekt objekt objekt"
+  "ikonFeed . beskrivelseFeed"
+  ". lokationFeed ."
+  ". reserverKnap .";
+}
+
+.glemteFeed h3 {
+  grid-area: objekt;
+  z-index: 1;
+}
+
+.glemteFeed img #ikonFeed {
+  grid-area: ikonFeed;
+  height: 150px;
+  z-index: 1;
+}
+.glemteFeed p #beskrivelseFeed {
+  grid-area: beskrivelseFeed;
+  z-index: 1;
+}
+.glemteFeed p #lokationFeed {
+  grid-area: lokationFeed;
+  z-index: 1;
+}
+
+#reserverKnap {
+  display: grid;
+  grid-area: reserverKnap;
+  background-color: #05455E;
+  width: 75px;
+  height: 25px;
+  border-radius: 10px;
+  color: white;
 }
