@@ -7,30 +7,62 @@
 
 body {
     background-color: white;
+<<<<<<< HEAD
     font: "Proxima Nova Alt", Sans-serif;
 
+=======
+    font-family:"Proxima Nova Alt", Sans-serif;
+>>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
 }
 footer {
   background-color: #05454E;
-  font: "Proxima Nova Alt", Sans-serif;
+  font-family:"Proxima Nova Alt", Sans-serif;
   color: white;
   text-align: left;
-
 }
 
+<<<<<<< HEAD
 .footertekst {
   color: white;
   line-height: normal;
   text-align: left;
+=======
+
+
+
+:root {
+  --gul:#F6E36D;
+  --lilla: #F9BABB;
+  --blå: #05454E;
+  --hvid:#ffffff;
 }
+
 
 .footertekst {
   color: white;
-  line-height: normal;
-  text-align: left;
+  line-height: 1,4;
+
+>>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
+}
+
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+
+.lærmere {
+  text-decoration: underline;
+}
+.footer2{
+  background-color: #2E2E2E;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 10px;
 }
 
 .container {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -58,6 +90,75 @@ footer {
 
 .knap1:hover {
   box-shadow: inset 300 0 0 0 #F6E36D;
+=======
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-auto-rows: minmax(50px,auto);
+  grid-gap:20px;
+  grid-template-areas: "header header"
+  "fundet registrer";
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  
+}
+
+
+.knap1{
+  grid-area: header;
+  width: 620px;
+  height: 120px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 2.5rem;
+  outline: none;
+}
+
+.knap2 {
+  grid-area: fundet ;
+  width: 300px;
+  height: 70px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+
+.knap3{
+  grid-area: registrer;
+  width: 300px;
+  height: 70px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+
+.knap2:hover, .knap3:hover {
+  box-shadow: inset 300px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
+>>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
+}
+
+.knap1:hover {
+   box-shadow: inset 620px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
 }
 
 
