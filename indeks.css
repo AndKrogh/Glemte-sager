@@ -9,17 +9,42 @@ footer {
 
 
 .glemteFeed {
+  margin: 10%;
   background-color: yellow;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-template-rows: 1fr 1fr 1fr 0.5fr;
   grid-template-areas:
-  "objekt objekt"
-  "ikonFeed beskrivelseFeed"
-  "lokationFeed lokationFeed"
-  "reserverKnap";
+  "objekt objekt objekt"
+  "ikonFeed . beskrivelseFeed"
+  ". lokationFeed ."
+  ". reserverKnap .";
 }
 
-.glemteFeed .reserverKnap {
-  
+.glemteFeed h3 {
+  grid-area: objekt;
+}
+
+.glemteFeed img {
+  grid-area: ikonFeed;
+  width: 30%;
+}
+.glemteFeed p #beskrivelseFeed {
+  grid-area: beskrivelseFeed;
+}
+.glemteFeed p #lokationFeed {
+  grid-area: lokationFeed;
+}
+
+#reserverKnap {
+  display: grid;
+  grid-area: reserverKnap;
+  background-color: #05455E;
+  width: 75px;
+  height: 25px;
+  border-radius: 10px;
+  color: white;
 }
