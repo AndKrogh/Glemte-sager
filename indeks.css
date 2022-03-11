@@ -1,11 +1,11 @@
 
 body {
     background-color: white;
-    font: "Proxima Nova Alt", Sans-serif;
+    font-family:"Proxima Nova Alt", Sans-serif;
 }
 footer {
   background-color: #05454E;
-  font: "Proxima Nova Alt", Sans-serif;
+  font-family:"Proxima Nova Alt", Sans-serif;
   color: white;
   text-align: left;
 }
@@ -26,10 +26,21 @@ footer {
   line-height: 1,4;
   text-align: left;
 }
+
+.icons {
+  letter-spacing: 1px;
+height:
+}
+
+.lærmere {
+  text-decoration: underline;
+}
 .footer2{
+
   background-color: #2E2E2E;
   padding: 10px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .container {
