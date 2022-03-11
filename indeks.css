@@ -24,19 +24,18 @@ footer {
 .footertekst {
   color: white;
   line-height: 1,4;
-  text-align: left;
+
 }
 
 .icons {
   letter-spacing: 1px;
-height:
+margin-left: 39px;
 }
 
 .lærmere {
   text-decoration: underline;
 }
 .footer2{
-
   background-color: #2E2E2E;
   padding: 10px;
   text-align: center;
