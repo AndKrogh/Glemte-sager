@@ -6,3 +6,20 @@ footer {
   background-color: red;
   font: "Proxima Nova Alt", Sans-serif;
 }
+
+
+.glemteFeed {
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr 1fr 0.5fr;
+  grid-template-areas:
+  "objekt objekt"
+  "ikonFeed beskrivelseFeed"
+  "lokationFeed lokationFeed"
+  "reserverKnap";
+}
+
+.glemteFeed .reserverKnap {
+  
+}
