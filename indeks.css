@@ -7,12 +7,7 @@
 
 body {
     background-color: white;
-<<<<<<< HEAD
-    font: "Proxima Nova Alt", Sans-serif;
-
-=======
     font-family:"Proxima Nova Alt", Sans-serif;
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
 }
 footer {
   background-color: #05454E;
@@ -21,28 +16,10 @@ footer {
   text-align: left;
 }
 
-<<<<<<< HEAD
 .footertekst {
   color: white;
   line-height: normal;
   text-align: left;
-=======
-
-
-
-:root {
-  --gul:#F6E36D;
-  --lilla: #F9BABB;
-  --blå: #05454E;
-  --hvid:#ffffff;
-}
-
-
-.footertekst {
-  color: white;
-  line-height: 1,4;
-
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
 }
 
 .icons {
@@ -62,35 +39,6 @@ margin-left: 39px;
 }
 
 .container {
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
-
-.knap1 {
-  width: 300px;
-  height: 100px;
-  border: none;
-  background-color: var(--gul);
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 0 ;
-  transition: ease-out 0.3s;
-  font-size: 2rem;
-  background-color: var(#F6E36D);
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 0 #ffffff;
-  transition: ease-out 0.3s;
-  font-size: 2rem;
-  outline: none;
-}
-
-.knap1:hover {
-  box-shadow: inset 300 0 0 0 #F6E36D;
-=======
   display: grid;
   grid-template-columns: 300px auto;
   grid-auto-rows: minmax(50px,auto);
@@ -100,7 +48,7 @@ margin-left: 39px;
   justify-content: center;
   align-content: center;
   height: 100vh;
-  
+
 }
 
 
@@ -152,7 +100,6 @@ margin-left: 39px;
   box-shadow: inset 300px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
 }
 
 .knap1:hover {
@@ -181,6 +128,8 @@ margin-left: 39px;
   ". lokationFeed"
   ". reserverKnap";
 }
+
+/* Steph kode*/
 
 .glemteFeed h3 {
   grid-area: objekt;
