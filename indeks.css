@@ -1,5 +1,4 @@
 body {
-    background-color: blue;
     font: "Proxima Nova Alt", Sans-serif;
 }
 footer {
@@ -10,6 +9,7 @@ footer {
 
 .glemteFeed {
   margin: 10%;
+  box-shadow: 0px 5px 10px #d4d4d4;
   background-color: yellow;
   width: 80%;
   border-radius: 10px;
