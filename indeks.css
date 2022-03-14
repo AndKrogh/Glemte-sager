@@ -227,7 +227,134 @@ margin-left: 39px;
 }
 
 
+body{
+    font-family: Proxima Nova Alt;
+    color:  #05454E;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
 
+a {
+  color: white;
+
+}
+
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background:#05454E;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+}
+
+
+.faq-heading{
+    padding: 20px 60px;
+
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #05454E;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+
+    font-size: 20px;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+
+}
+.botmenu {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #05454E;
+  color: white;
+  text-align: left;
+}
+.liste{
+  text-align: left;
+  padding-top: 5px;
+}
+
+.botmenutekst{
+  text-align: center;
+}
+
+.footer{
+  background-color: #2E2E2E;
+  padding: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: white;
+}
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #05454E; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color:  #F6E36D; /* Add a dark-grey background on hover */
+}
 
 
 /* Steph kode*/
@@ -641,4 +768,3 @@ margin-left: 60px;
   margin-top: 30px;
   margin-left: 50px;
 }
-
