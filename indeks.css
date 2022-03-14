@@ -184,7 +184,7 @@ margin-left: 39px;
 
 
 .knap2 {
-  grid-area: fundet ;
+  grid-area: fundet;
   width: 200px;
   height: 60px;
   border: none;
@@ -213,14 +213,6 @@ margin-left: 39px;
 }
 
 
-.knap2:hover, .knap3:hover {
-  box-shadow: inset 200px 0 0 0 #05454E;
-  font-size: 2.3rem;
-  outline: none;
-}
-
-
-
 
 .knap2:hover, .knap3:hover {
   box-shadow: inset 200px 0 0 0 #05454E;
@@ -229,7 +221,7 @@ margin-left: 39px;
 }
 
 .knap1:hover {
-   box-shadow: inset 620px 0 0 0 #05454E;
+   box-shadow: inset 420px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
 }
