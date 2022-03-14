@@ -178,10 +178,11 @@ margin-left: 39px;
 }
 
 
+/* Steph kode*/
 
 .glemteFeed {
   grid-gap: 5px;
-  margin: 30px;
+  margin: 5%;
   box-shadow: 0px 5px 10px #a9a9a9;
   background-color: white;
   width: 220px;
@@ -197,8 +198,6 @@ margin-left: 39px;
   ". lokationFeed"
   ". reserverKnap";
 }
-
-/* Steph kode*/
 
 .glemteFeed h3 {
   grid-area: objekt;
@@ -225,6 +224,15 @@ margin-left: 39px;
   z-index: 1;
 }
 .beskrivelseFeed {
+  grid-area: beskrivelseFeed;
+  z-index: 1;
+  height: auto;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  padding: 5px;
+  width: 110px;
+}
+#beskrivelse {
   grid-area: beskrivelseFeed;
   z-index: 1;
   height: auto;
