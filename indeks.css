@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 :root {
   --gul:#F6E36D;
   --lilla: #F9BABB;
@@ -7,7 +5,7 @@
   --grå-ish: #e4f1f0;
   --hvid:#ffffff;
 }
->>>>>>> Stashed changes
+
 
 * {
     padding: 0;
@@ -88,27 +86,19 @@ footer {
   text-align: left;
 }
 
-<<<<<<< HEAD
 
 
 
-:root {
-  --gul:#F6E36D;
-  --lilla: #F9BABB;
-  --blå: #05454E;
-  --hvid:#ffffff;
-}
+
 
 
 .footertekst {
   color: white;
   line-height: 1,4;
-
-<<<<<<< HEAD
 }
 
 .icons {
-  letter-spacing: 1px;
+letter-spacing: 1px;
 margin-left: 39px;
 }
 
@@ -129,7 +119,6 @@ margin-left: 39px;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-=======
 }
 
 .icons {
@@ -137,7 +126,6 @@ margin-left: 39px;
 margin-left: 39px;
 }
 
-=======
 .footertekst {
   color: white;
   line-height: normal;
@@ -149,29 +137,21 @@ margin-left: 39px;
 margin-left: 39px;
 }
 
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+
 .lærmere {
   text-decoration: underline;
 }
 .footer2{
   background-color: #2E2E2E;
   padding: 10px;
-<<<<<<< HEAD
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
-=======
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   text-align: center;
   letter-spacing: 1px;
   font-size: 10px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-.knap1, .knap2,.knap3 {
-  width: 300px;
-  height: 120px;
-=======
+
+
 /* 3 knapper på forsiden */
 .container {
   display: grid;
@@ -191,87 +171,17 @@ margin-left: 39px;
   grid-area: header;
   width: 420px;
   height: 100px;
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   border: none;
   color: #05454E;
   background-color: #F6E36D;
   border-radius: 25px;
   box-shadow: inset 0 0 0 0 #05454E;
   transition: ease-out 0.2s;
-<<<<<<< HEAD
   font-size: 2rem;
   outline: none;
 }
 
-.knap1:hover, .knap2:hover, .knap3:hover {
-  box-shadow: inset 300px 0 0 0 #05454E;
-  cursor: pointer;
-  color: #F6E36D;
-=======
-.container {
-  display: grid;
-  grid-template-columns: 300px auto;
-  grid-auto-rows: minmax(50px,auto);
-  grid-gap:20px;
-  grid-template-areas: "header header"
-  "fundet registrer";
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
 
-}
-
-
-.knap1{
-  grid-area: header;
-  width: 620px;
-  height: 120px;
-  border: none;
-  color: #05454E;
-  background-color: #F6E36D;
-  border-radius: 25px;
-  box-shadow: inset 0 0 0 0 #05454E;
-  transition: ease-out 0.2s;
-  font-size: 2.5rem;
-  outline: none;
-}
-
-.knap2 {
-  grid-area: fundet ;
-  width: 300px;
-  height: 70px;
-  border: none;
-  color: #05454E;
-  background-color: #F6E36D;
-  border-radius: 20px;
-  box-shadow: inset 0 0 0 0 #05454E;
-  transition: ease-out 0.2s;
-  font-size: 1.2rem;
-  outline: none;
-}
-
-
-.knap3{
-  grid-area: registrer;
-  width: 300px;
-  height: 70px;
-  border: none;
-  color: #05454E;
-  background-color: #F6E36D;
-  border-radius: 20px;
-  box-shadow: inset 0 0 0 0 #05454E;
-  transition: ease-out 0.2s;
-  font-size: 1.2rem;
-  outline: none;
-}
-
-
-.knap2:hover, .knap3:hover {
-  box-shadow: inset 300px 0 0 0 #05454E;
-=======
-  font-size: 2.3rem;
-  outline: none;
-}
 
 .knap2 {
   grid-area: fundet ;
@@ -305,32 +215,32 @@ margin-left: 39px;
 
 .knap2:hover, .knap3:hover {
   box-shadow: inset 200px 0 0 0 #05454E;
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+  font-size: 2.3rem;
+  outline: none;
+}
+
+
+
+
+.knap2:hover, .knap3:hover {
+  box-shadow: inset 200px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
 }
 
 .knap1:hover {
-<<<<<<< HEAD
    box-shadow: inset 620px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
 }
 
 
-=======
-   box-shadow: inset 420px 0 0 0 #05454E;
-  cursor: pointer;
-  color: #F6E36D;
-}
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+
 
 
 /* Steph kode*/
 
 .glemteFeed {
-<<<<<<< HEAD
   margin: 10%;
   box-shadow: 0px 5px 10px #808080;
   background-color: yellow;
@@ -346,7 +256,8 @@ margin-left: 39px;
   "ikonFeed . beskrivelseFeed"
   ". lokationFeed ."
   ". reserverKnap .";
-=======
+
+
   grid-area: allFeed;
   grid-gap: 5px;
   margin: 5%;
@@ -364,7 +275,7 @@ margin-left: 39px;
   "ikonFeed beskrivelseFeed"
   ". lokationFeed"
   ". reserverKnap";
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+
 }
 
 .glemteFeed h3 {
@@ -385,17 +296,16 @@ margin-left: 39px;
 
 .ikonFeed {
   grid-area: ikonFeed;
-<<<<<<< HEAD
   height: 100px;
   width: 100px;
-=======
   height: 75px;
   width: 75px;
   box-shadow: 0px 5px 5px #ececec;
   border-radius: 5px;
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   z-index: 1;
 }
+
+
 .beskrivelseFeed {
   grid-area: beskrivelseFeed;
   z-index: 1;
@@ -477,12 +387,7 @@ margin-left: 39px;
   }
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dc851f921295be78f341012bb9135e42ac0a9043
->>>>>>> Stashed changes
+
 
 .kontakt{
   display: grid;
@@ -546,10 +451,7 @@ margin-left: 39px;
   border-radius: 20px;
   margin-top: 40px;
 }
-=======
->>>>>>> e871abffb9ced6fc884106410a9653a30475e5b8
-=======
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
+
 
 
 .kontakt{
@@ -747,5 +649,4 @@ margin-left: 60px;
   margin-top: 30px;
   margin-left: 50px;
 }
-=======
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+
