@@ -574,71 +574,11 @@ body{
 
 }
 
-
-.kontakt{
-  display: grid;
-  border-radius: 20px;
-  background-color: #05454E;
-  border-color: black;
-  box-shadow: 0 14px 28px #808080;
-  width: 300px;
-  height: 200px;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas:
-  "a"
-  "b"
-  "c";
+h1{
+  color: #05454E;
+  font: "Proxima Nova Alt", Sans-serif;
+  font-style: italic;
 }
-
-.ikonadresse {
-  grid-area: a;
-  margin-left: 20px;
-  margin-top: 15px;
-}
-
-.adresse{
-  grid-area: a;
-  margin-left: 65px;
-  margin-top: 25px;
-  color: #ffffff;
-}
-
-.ikonklokke{
-  grid-area: b;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.klokke{
-  grid-area: b;
-  margin-left: 70px;
-  margin-top: 10px;
-  color: #ffffff;
-}
-
-.ikontelefon{
-  grid-area: c;
-  margin-left: 25px;
-  margin-top: 10px;
-}
-
-.telefon{
-  grid-area: c;
-  margin-left: 70px;
-  margin-top: 10px;
-  color: #ffffff;
-}
-
-.skolen{
-  width: 300px;
-  height: 200px;
-  box-shadow: 0 14px 28px #808080;
-  border-radius: 20px;
-  margin-top: 40px;
-}
-
-
 
 .kontakt{
   display: grid;
