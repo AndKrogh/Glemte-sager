@@ -1,3 +1,18 @@
+
+body {
+    background-color: white;
+    font-family:"Proxima Nova Alt", Sans-serif;
+}
+footer {
+  background-color: #05454E;
+  font-family:"Proxima Nova Alt", Sans-serif;
+  color: white;
+  text-align: left;
+}
+
+
+
+
 :root {
   --gul:#F6E36D;
   --lilla: #F9BABB;
@@ -5,90 +20,153 @@
   --hvid:#ffffff;
 }
 
-body {
+
+.footertekst {
+  color: white;
+  line-height: 1,4;
+
 <<<<<<< HEAD
-    background-color: white;
-    font: "Proxima Nova Alt", Sans-serif;
-}
-footer {
-  background-color: #05454E;
-  font: "Proxima Nova Alt", Sans-serif;
-  color: white;
-  text-align: left;
-<<<<<<< Updated upstream
 }
 
-.footertekst {
-  color: white;
-  line-height: normal;
-  text-align: left;
-=======
->>>>>>> Stashed changes
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
 }
 
-.footertekst {
-  color: white;
-  line-height: normal;
-  text-align: left;
+.lærmere {
+  text-decoration: underline;
+}
+.footer2{
+  background-color: #2E2E2E;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 10px;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 200px 100p;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+=======
+}
+
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+
+.lærmere {
+  text-decoration: underline;
+}
+.footer2{
+  background-color: #2E2E2E;
+  padding: 10px;
+>>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
   text-align: center;
-  min-height: 100vh;
+  letter-spacing: 1px;
+  font-size: 10px;
 }
-<<<<<<< Updated upstream
 
-=======
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 
->>>>>>> dc851f921295be78f341012bb9135e42ac0a9043
->>>>>>> Stashed changes
-
-.knap1 {
+.knap1, .knap2,.knap3 {
   width: 300px;
-  height: 100px;
+  height: 120px;
   border: none;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  background-color: var(--gul);
-<<<<<<< HEAD
-}
->>>>>>> 1ba093c18caa5abda6402376ae3a42c89302b832
-=======
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 0 ;
-  transition: ease-out 0.3s;
-  font-size: 2rem;
-}
->>>>>>> 9fdd0e845f55fec50fb210951081525e66e32924
->>>>>>> 22518cad1aa1f16449e6589d2434a17d23b06109
-=======
->>>>>>> Stashed changes
-  background-color: var(#F6E36D);
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 0 #ffffff;
-  transition: ease-out 0.3s;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
   font-size: 2rem;
   outline: none;
 }
 
-.knap1:hover {
-  box-shadow: inset 300 0 0 0 #F6E36D;
+.knap1:hover, .knap2:hover, .knap3:hover {
+  box-shadow: inset 300px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
+=======
+.container {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-auto-rows: minmax(50px,auto);
+  grid-gap:20px;
+  grid-template-areas: "header header"
+  "fundet registrer";
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+
 }
-<<<<<<< Updated upstream
+
+
+.knap1{
+  grid-area: header;
+  width: 620px;
+  height: 120px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 2.5rem;
+  outline: none;
+}
+
+.knap2 {
+  grid-area: fundet ;
+  width: 300px;
+  height: 70px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+
+.knap3{
+  grid-area: registrer;
+  width: 300px;
+  height: 70px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+
+.knap2:hover, .knap3:hover {
+  box-shadow: inset 300px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
+}
+
+.knap1:hover {
+   box-shadow: inset 620px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
+>>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
+}
+
+
 
 
 .glemteFeed {
   margin: 10%;
-  box-shadow: 0px 5px 10px #d4d4d4;
+  box-shadow: 0px 5px 10px #808080;
   background-color: yellow;
   width: 80%;
   height: 250px;
@@ -96,9 +174,9 @@ footer {
   padding: 10px;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
   grid-template-areas:
-  "objekt objekt objekt"
+  ". objekt ."
   "ikonFeed . beskrivelseFeed"
   ". lokationFeed ."
   ". reserverKnap .";
@@ -109,9 +187,10 @@ footer {
   z-index: 1;
 }
 
-.glemteFeed img #ikonFeed {
+.ikonFeed {
   grid-area: ikonFeed;
-  height: 150px;
+  height: 100px;
+  width: 100px;
   z-index: 1;
 }
 .glemteFeed p #beskrivelseFeed {
@@ -132,6 +211,272 @@ footer {
   border-radius: 10px;
   color: white;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dc851f921295be78f341012bb9135e42ac0a9043
 >>>>>>> Stashed changes
+
+.kontakt{
+  display: grid;
+  border-radius: 20px;
+  background-color: #05454E;
+  border-color: black;
+  box-shadow: 0 14px 28px #808080;
+  width: 300px;
+  height: 200px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+}
+
+.ikonadresse {
+  grid-area: a;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.adresse{
+  grid-area: a;
+  margin-left: 65px;
+  margin-top: 25px;
+  color: #ffffff;
+}
+
+.ikonklokke{
+  grid-area: b;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.klokke{
+  grid-area: b;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.ikontelefon{
+  grid-area: c;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.telefon{
+  grid-area: c;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.skolen{
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 14px 28px #808080;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+=======
+>>>>>>> e871abffb9ced6fc884106410a9653a30475e5b8
+=======
+>>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
+
+
+.kontakt{
+  display: grid;
+  border-radius: 20px;
+  background-color: #05454E;
+  border-color: black;
+  box-shadow: 0 14px 28px #808080;
+  width: 300px;
+  height: 200px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+}
+
+.ikonadresse {
+  grid-area: a;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.adresse{
+  grid-area: a;
+  margin-left: 65px;
+  margin-top: 25px;
+  color: #ffffff;
+}
+
+.ikonklokke{
+  grid-area: b;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.klokke{
+  grid-area: b;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.ikontelefon{
+  grid-area: c;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.telefon{
+  grid-area: c;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.skolen{
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 14px 28px #808080;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.fundet{
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+  color: #05454E;
+  font-size: 35px;
+  font-style: italic;
+  font: "Proxima Nova Alt", Sans-serif;
+
+}
+
+.fundettekst{
+  grid-area: b;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  margin-top: 10px;
+}
+
+.liste{
+  grid-area: b;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  margin-top: 10px;
+}
+.tak{
+  grid-area: c;
+  color: #05454E;
+  font-size: 35px;
+  font-style: italic;
+  font: "Proxima Nova Alt", Sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.kontakt{
+  margin-left: 37px;
+  margin-top: 15px;
+}
+
+.hvidbox{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: white;
+  border-color: none;
+  box-shadow: 0 14px 28px #808080;
+}
+.kontakttak{
+  grid-area: c;
+  border-radius: 20px;
+  background-color: #05454E;
+  border-color: black;
+  box-shadow: 0 14px 28px #808080;
+  width: 200px;
+  height: 250px;
+  margin-left: 35px;
+  font-size: 10px;
+
+}
+.takikonadresse {
+  grid-area: c;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.takadresse{
+  grid-area: c;
+  margin-left: 65px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.takkonklokke{
+  grid-area: c;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.takklokke{
+  grid-area: c;
+  margin-left: 65px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.takikontelefon{
+  grid-area: c;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.taktelefon{
+  grid-area: c;
+  margin-left: 65px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.bekræft{
+  grid-area: a;
+  color: #05454E;
+margin-left: 60px;
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.knap{
+  grid-area: b;
+  background-color: #05454E;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  margin-left: 50px;
+}
