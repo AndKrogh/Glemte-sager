@@ -116,8 +116,10 @@ function validate(){
     }
     
 
-    /* alert("det gik krattedeme godt!! ");
-    return true; */
+    if (window.confirm('Det gik kratter edeme godt, kom lad os hop videre ven'))
+   {
+   window.open("forside.html", '_blank');
+   };
   }
 
 
