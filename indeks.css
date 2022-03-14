@@ -1,3 +1,11 @@
+:root {
+  --gul:#F6E36D;
+  --lilla: #F9BABB;
+  --blå: #05454E;
+  --grå-ish: #e4f1f0;
+  --hvid:#ffffff;
+}
+
 
 * {
     padding: 0;
@@ -7,8 +15,9 @@
 /* header med menu */
 header {
   position: fixed;
-  background-color: var(--lilla);
+  background-color: var(--grå-ish);
   width: 100vw;
+  z-index: 10;
 }
 
 li{
@@ -16,7 +25,7 @@ li{
 }
 
 a{
-  color: var(--hvid);
+  color: var(--blå);
   text-decoration: none;
 }
 
@@ -37,9 +46,8 @@ a{
 }
 
 .logo {
- width: 100px;
- height: 100px;
- z-index: 5;
+height: 50px;
+width: 120px;
 }
 
 .nav-link {
@@ -47,7 +55,7 @@ a{
 }
 
 .nav-link:hover {
-  color: blue;
+  color: var(--hvid);
 }
 
 .hamburger {
@@ -79,27 +87,19 @@ footer {
   text-align: left;
 }
 
-<<<<<<< HEAD
 
 
 
-:root {
-  --gul:#F6E36D;
-  --lilla: #F9BABB;
-  --blå: #05454E;
-  --hvid:#ffffff;
-}
+
 
 
 .footertekst {
   color: white;
   line-height: 1,4;
-
-<<<<<<< HEAD
 }
 
 .icons {
-  letter-spacing: 1px;
+letter-spacing: 1px;
 margin-left: 39px;
 }
 
@@ -120,7 +120,6 @@ margin-left: 39px;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-=======
 }
 
 .icons {
@@ -128,7 +127,6 @@ margin-left: 39px;
 margin-left: 39px;
 }
 
-=======
 .footertekst {
   color: white;
   line-height: normal;
@@ -140,29 +138,26 @@ margin-left: 39px;
 margin-left: 39px;
 }
 
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+
 .lærmere {
   text-decoration: underline;
 }
 .footer2{
   background-color: #2E2E2E;
   padding: 10px;
-<<<<<<< HEAD
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
-=======
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   text-align: center;
   letter-spacing: 1px;
   font-size: 10px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-.knap1, .knap2,.knap3 {
-  width: 300px;
-  height: 120px;
-=======
+
+.overskrift-forside {
+  padding-top: 180px;
+  text-align: center;
+
+}
+
 /* 3 knapper på forsiden */
 .container {
   display: grid;
@@ -173,7 +168,7 @@ margin-left: 39px;
   "fundet registrer";
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  height: 50vh;
 
 }
 
@@ -182,90 +177,20 @@ margin-left: 39px;
   grid-area: header;
   width: 420px;
   height: 100px;
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   border: none;
   color: #05454E;
   background-color: #F6E36D;
   border-radius: 25px;
   box-shadow: inset 0 0 0 0 #05454E;
   transition: ease-out 0.2s;
-<<<<<<< HEAD
   font-size: 2rem;
   outline: none;
 }
 
-.knap1:hover, .knap2:hover, .knap3:hover {
-  box-shadow: inset 300px 0 0 0 #05454E;
-  cursor: pointer;
-  color: #F6E36D;
-=======
-.container {
-  display: grid;
-  grid-template-columns: 300px auto;
-  grid-auto-rows: minmax(50px,auto);
-  grid-gap:20px;
-  grid-template-areas: "header header"
-  "fundet registrer";
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
 
-}
-
-
-.knap1{
-  grid-area: header;
-  width: 620px;
-  height: 120px;
-  border: none;
-  color: #05454E;
-  background-color: #F6E36D;
-  border-radius: 25px;
-  box-shadow: inset 0 0 0 0 #05454E;
-  transition: ease-out 0.2s;
-  font-size: 2.5rem;
-  outline: none;
-}
 
 .knap2 {
-  grid-area: fundet ;
-  width: 300px;
-  height: 70px;
-  border: none;
-  color: #05454E;
-  background-color: #F6E36D;
-  border-radius: 20px;
-  box-shadow: inset 0 0 0 0 #05454E;
-  transition: ease-out 0.2s;
-  font-size: 1.2rem;
-  outline: none;
-}
-
-
-.knap3{
-  grid-area: registrer;
-  width: 300px;
-  height: 70px;
-  border: none;
-  color: #05454E;
-  background-color: #F6E36D;
-  border-radius: 20px;
-  box-shadow: inset 0 0 0 0 #05454E;
-  transition: ease-out 0.2s;
-  font-size: 1.2rem;
-  outline: none;
-}
-
-
-.knap2:hover, .knap3:hover {
-  box-shadow: inset 300px 0 0 0 #05454E;
-=======
-  font-size: 2.3rem;
-  outline: none;
-}
-
-.knap2 {
-  grid-area: fundet ;
+  grid-area: fundet;
   width: 200px;
   height: 60px;
   border: none;
@@ -292,61 +217,242 @@ margin-left: 39px;
   font-size: 1rem;
   outline: none;
 }
+
 
 
 .knap2:hover, .knap3:hover {
   box-shadow: inset 200px 0 0 0 #05454E;
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   cursor: pointer;
   color: #F6E36D;
 }
 
 .knap1:hover {
-<<<<<<< HEAD
-   box-shadow: inset 620px 0 0 0 #05454E;
-  cursor: pointer;
-  color: #F6E36D;
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
-}
-
-
-=======
    box-shadow: inset 420px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
 }
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+
+
+body{
+    font-family: Proxima Nova Alt;
+    color:  #05454E;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+a {
+  color: white;
+
+}
+
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background:#05454E;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+}
+
+
+.faq-heading{
+    padding: 20px 60px;
+
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #05454E;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+
+    font-size: 20px;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+
+}
+.botmenu {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #05454E;
+  color: white;
+  text-align: left;
+}
+.liste{
+  text-align: left;
+  padding-top: 5px;
+}
+
+.botmenutekst{
+  text-align: center;
+}
+
+.footer{
+  background-color: #2E2E2E;
+  padding: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: white;
+}
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #05454E; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color:  #F6E36D; /* Add a dark-grey background on hover */
+}
+
+
+/* Regristrer genstand css */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: white;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #00000010;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #05454E;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn button[type="registrer"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #05454E;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
 
 
 /* Steph kode*/
 
+
 .glemteFeed {
-<<<<<<< HEAD
-  margin: 10%;
-  box-shadow: 0px 5px 10px #808080;
-  background-color: yellow;
-  width: 80%;
-  height: 250px;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
-  grid-template-areas:
-  ". objekt ."
-  "ikonFeed . beskrivelseFeed"
-  ". lokationFeed ."
-  ". reserverKnap .";
-=======
+
   grid-area: allFeed;
   grid-gap: 5px;
-  margin: 5%;
   box-shadow: 0px 5px 10px #a9a9a9;
   background-color: white;
   width: 270px;
   height: 300px;
   border-radius: 10px;
-  padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 0.5fr 1.5fr 0.5fr 0.5fr;
@@ -355,7 +461,7 @@ margin-left: 39px;
   "ikonFeed beskrivelseFeed"
   ". lokationFeed"
   ". reserverKnap";
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
+
 }
 
 .glemteFeed h3 {
@@ -376,17 +482,16 @@ margin-left: 39px;
 
 .ikonFeed {
   grid-area: ikonFeed;
-<<<<<<< HEAD
   height: 100px;
   width: 100px;
-=======
   height: 75px;
   width: 75px;
   box-shadow: 0px 5px 5px #ececec;
   border-radius: 5px;
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   z-index: 1;
 }
+
+
 .beskrivelseFeed {
   grid-area: beskrivelseFeed;
   z-index: 1;
@@ -468,12 +573,7 @@ margin-left: 39px;
   }
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dc851f921295be78f341012bb9135e42ac0a9043
->>>>>>> Stashed changes
+
 
 .kontakt{
   display: grid;
@@ -537,10 +637,7 @@ margin-left: 39px;
   border-radius: 20px;
   margin-top: 40px;
 }
-=======
->>>>>>> e871abffb9ced6fc884106410a9653a30475e5b8
-=======
->>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
+
 
 
 .kontakt{
@@ -738,5 +835,3 @@ margin-left: 60px;
   margin-top: 30px;
   margin-left: 50px;
 }
-=======
->>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
