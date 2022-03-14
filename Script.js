@@ -54,3 +54,12 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener('click', 
 
 
 //Steph javascript
+
+// const beskrivelse1 = document.getElementById('beskrivelse');
+// const reserver1 = document.getElementsByClassName('reserverKnap');
+// const out1 = document.getElementById('output1');
+//
+// function fun1() {
+//   out1.innerHTML = beskrivelse1.value;
+// }
+// reserver1.addEventListener('click', fun1);
