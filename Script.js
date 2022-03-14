@@ -25,7 +25,7 @@ function forsideKnapLinks1 (){
 }
 
 function forsideKnapLinks2 (){
-    document.location.href="reservation.html";
+    document.location.href="registrergenstand.html";
 }
 
 /* let hamburger = document.querySelector(".hamburger");
