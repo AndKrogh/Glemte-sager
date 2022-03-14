@@ -13,7 +13,7 @@
 /* header med menu */
 header {
   position: fixed;
-  background-color: var(--blå);
+  background-color: var(--lilla);
   width: 100vw;
 }
 
@@ -43,8 +43,9 @@ a{
 }
 
 .logo {
-  font-size: 2rem;
-  color: var(--hvid);
+ width: 100px;
+ height: 100px;
+ z-index: 5;
 }
 
 .nav-link {
