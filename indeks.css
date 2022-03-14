@@ -12,7 +12,9 @@
 
 /* header med menu */
 header {
-  background-color: var(--blå);
+  position: fixed;
+  background-color: var(--lilla);
+  width: 100vw;
 }
 
 li{
@@ -41,8 +43,9 @@ a{
 }
 
 .logo {
-  font-size: 2rem;
-  color: var(--hvid);
+ width: 100px;
+ height: 100px;
+ z-index: 5;
 }
 
 .nav-link {
@@ -129,7 +132,7 @@ margin-left: 39px;
   border-radius: 25px;
   box-shadow: inset 0 0 0 0 #05454E;
   transition: ease-out 0.2s;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   outline: none;
 }
 
@@ -143,7 +146,7 @@ margin-left: 39px;
   border-radius: 20px;
   box-shadow: inset 0 0 0 0 #05454E;
   transition: ease-out 0.2s;
-  font-size: 1.2rem;
+  font-size: 1rem;
   outline: none;
 }
 
@@ -158,19 +161,19 @@ margin-left: 39px;
   border-radius: 20px;
   box-shadow: inset 0 0 0 0 #05454E;
   transition: ease-out 0.2s;
-  font-size: 1.2rem;
+  font-size: 1rem;
   outline: none;
 }
 
 
 .knap2:hover, .knap3:hover {
-  box-shadow: inset 300px 0 0 0 #05454E;
+  box-shadow: inset 200px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
 }
 
 .knap1:hover {
-   box-shadow: inset 620px 0 0 0 #05454E;
+   box-shadow: inset 420px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
 }
