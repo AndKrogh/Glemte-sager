@@ -88,7 +88,30 @@ function topFunction() {
 
 //Jack javascript
 
-
+function validate(){
+    let name = document.getElementById("name").value;
+    let subject = document.getElementById("subject").value;
+    let message = document.getElementById("message").value;
+    let error_message = document.getElementById("error_message");
+  
+    error_message.style.padding = "10px";
+  
+    let text;
+    if(name.length < 5){
+      text = "giv genstanden et navn jooo";
+      error_message.innerHTML = text;
+      return false;
+    }
+  
+  
+    if(message.length <= 5){
+      text = "tilføj lidt beskrivelse fætter guf";
+      error_message.innerHTML = text;
+      return false;
+    }
+    alert("det gik krattedeme godt!! ");
+    return true;
+  }
 
 
 
