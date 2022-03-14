@@ -31,8 +31,6 @@ function forsideKnapLinks2 (){
 function feedKnap (){
   document.location.href="reservation.html";
 }
-
-
 /* let hamburger = document.querySelector(".hamburger");
 let navMenu = document.querySelector(".nav-menu");
 
@@ -98,28 +96,24 @@ function validate(){
     let subject = document.getElementById("subject").value;
     let message = document.getElementById("message").value;
     let error_message = document.getElementById("error_message");
-  
+
     error_message.style.padding = "10px";
-  
+
     let text;
     if(name.length < 5){
       text = "giv genstanden et navn jooo";
       error_message.innerHTML = text;
       return false;
     }
-  
-  
+
+
     if(message.length <= 5){
       text = "tilføj lidt beskrivelse fætter guf";
       error_message.innerHTML = text;
       return false;
     }
-    
-
-    if (window.confirm('Det gik kratter edeme godt, kom lad os hop videre ven'))
-   {
-   window.open("forside.html", '_blank');
-   };
+    alert("det gik krattedeme godt!! ");
+    return true;
   }
 
 
@@ -142,7 +136,7 @@ function myFunction() {
 
 
 //Steph javascript
-
+//
 // const beskrivelse1 = document.getElementById('beskrivelse');
 // const reserver1 = document.getElementsByClassName('reserverKnap');
 // const out1 = document.getElementById('output1');
