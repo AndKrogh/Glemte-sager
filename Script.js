@@ -28,6 +28,9 @@ function forsideKnapLinks2 (){
     document.location.href="registrergenstand.html";
 }
 
+function feedKnap (){
+  document.location.href="reservation.html";
+}
 /* let hamburger = document.querySelector(".hamburger");
 let navMenu = document.querySelector(".nav-menu");
 

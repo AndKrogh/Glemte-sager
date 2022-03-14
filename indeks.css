@@ -17,6 +17,7 @@ header {
   position: fixed;
   background-color: var(--grå-ish);
   width: 100vw;
+  z-index: 10;
 }
 
 li{
@@ -149,10 +150,13 @@ margin-left: 39px;
   font-size: 10px;
 }
 
-h1 {
-  padding-top: 200px;
-}
 
+
+.overskrift-forside {
+  padding-top: 180px;
+  text-align: center;
+
+}
 
 /* 3 knapper på forsiden */
 .container {
@@ -164,7 +168,7 @@ h1 {
   "fundet registrer";
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  height: 50vh;
 
 }
 
@@ -439,33 +443,16 @@ body{
 
 /* Steph kode*/
 
-.glemteFeed {
-  margin: 10%;
-  box-shadow: 0px 5px 10px #808080;
-  background-color: yellow;
-  width: 80%;
-  height: 250px;
-  border-radius: 10px;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
-  grid-template-areas:
-  ". objekt ."
-  "ikonFeed . beskrivelseFeed"
-  ". lokationFeed ."
-  ". reserverKnap .";
 
+.glemteFeed {
 
   grid-area: allFeed;
   grid-gap: 5px;
-  margin: 5%;
   box-shadow: 0px 5px 10px #a9a9a9;
   background-color: white;
   width: 270px;
   height: 300px;
   border-radius: 10px;
-  padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 0.5fr 1.5fr 0.5fr 0.5fr;
