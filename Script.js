@@ -31,6 +31,8 @@ function forsideKnapLinks2 (){
 function feedKnap (){
   document.location.href="reservation.html";
 }
+
+
 /* let hamburger = document.querySelector(".hamburger");
 let navMenu = document.querySelector(".nav-menu");
 
@@ -112,8 +114,10 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    alert("det gik krattedeme godt!! ");
-    return true;
+    
+
+    /* alert("det gik krattedeme godt!! ");
+    return true; */
   }
 
 
