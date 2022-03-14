@@ -1,4 +1,73 @@
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header med menu */
+header {
+  position: fixed;
+  background-color: var(--lilla);
+  width: 100vw;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: var(--hvid);
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo {
+ width: 100px;
+ height: 100px;
+ z-index: 5;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+
+}
+
+
+
 body {
     background-color: white;
     font-family:"Proxima Nova Alt", Sans-serif;
@@ -10,6 +79,7 @@ footer {
   text-align: left;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -58,29 +128,68 @@ margin-left: 39px;
 margin-left: 39px;
 }
 
+=======
+.footertekst {
+  color: white;
+  line-height: normal;
+  text-align: left;
+}
+
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
 .lærmere {
   text-decoration: underline;
 }
 .footer2{
   background-color: #2E2E2E;
   padding: 10px;
+<<<<<<< HEAD
 >>>>>>> 0c78e115d68956d6dccfe9c0285cf07e6a3362c0
+=======
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   text-align: center;
   letter-spacing: 1px;
   font-size: 10px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .knap1, .knap2,.knap3 {
   width: 300px;
   height: 120px;
+=======
+/* 3 knapper på forsiden */
+.container {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-auto-rows: minmax(50px,auto);
+  grid-gap:20px;
+  grid-template-areas: "header header"
+  "fundet registrer";
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+
+}
+
+
+.knap1{
+  grid-area: header;
+  width: 420px;
+  height: 100px;
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   border: none;
   color: #05454E;
   background-color: #F6E36D;
   border-radius: 25px;
   box-shadow: inset 0 0 0 0 #05454E;
   transition: ease-out 0.2s;
+<<<<<<< HEAD
   font-size: 2rem;
   outline: none;
 }
@@ -150,11 +259,50 @@ margin-left: 39px;
 
 .knap2:hover, .knap3:hover {
   box-shadow: inset 300px 0 0 0 #05454E;
+=======
+  font-size: 2.3rem;
+  outline: none;
+}
+
+.knap2 {
+  grid-area: fundet ;
+  width: 200px;
+  height: 60px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1rem;
+  outline: none;
+}
+
+
+.knap3{
+  grid-area: registrer;
+  width: 200px;
+  height: 60px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1rem;
+  outline: none;
+}
+
+
+.knap2:hover, .knap3:hover {
+  box-shadow: inset 200px 0 0 0 #05454E;
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   cursor: pointer;
   color: #F6E36D;
 }
 
 .knap1:hover {
+<<<<<<< HEAD
    box-shadow: inset 620px 0 0 0 #05454E;
   cursor: pointer;
   color: #F6E36D;
@@ -162,9 +310,18 @@ margin-left: 39px;
 }
 
 
+=======
+   box-shadow: inset 420px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
+}
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
 
+
+/* Steph kode*/
 
 .glemteFeed {
+<<<<<<< HEAD
   margin: 10%;
   box-shadow: 0px 5px 10px #808080;
   background-color: yellow;
@@ -180,37 +337,138 @@ margin-left: 39px;
   "ikonFeed . beskrivelseFeed"
   ". lokationFeed ."
   ". reserverKnap .";
+=======
+  grid-area: allFeed;
+  grid-gap: 5px;
+  margin: 5%;
+  box-shadow: 0px 5px 10px #a9a9a9;
+  background-color: white;
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 0.5fr 1.5fr 0.5fr 0.5fr;
+  grid-template-areas:
+  "objekt objekt"
+  "ikonFeed beskrivelseFeed"
+  ". lokationFeed"
+  ". reserverKnap";
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
 }
 
 .glemteFeed h3 {
   grid-area: objekt;
   z-index: 1;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--lilla);
+  color: white;
+  font-weight: lighter;
+}
+.glemteFeed p {
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .ikonFeed {
   grid-area: ikonFeed;
+<<<<<<< HEAD
   height: 100px;
   width: 100px;
+=======
+  height: 75px;
+  width: 75px;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
   z-index: 1;
 }
-.glemteFeed p #beskrivelseFeed {
+.beskrivelseFeed {
   grid-area: beskrivelseFeed;
   z-index: 1;
+  height: auto;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  padding: 5px;
+  width: 160px;
 }
-.glemteFeed p #lokationFeed {
-  grid-area: lokationFeed;
+/* #beskrivelse {
+  grid-area: beskrivelseFeed;
   z-index: 1;
+  height: auto;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  padding: 5px;
+  width: 110px;
+} */
+.lokationFeed {
+  grid-area: lokationFeed;
+  display: flex;
+  z-index: 1;
+  height: 20px;
 }
-
-#reserverKnap {
-  display: grid;
+.glemtSted {
+  display: flex;
+  grid-area: lokationFeed;
+  filter: invert();
+  height: 15px;
+}
+.reserverKnap {
+  display: inline-block;
+  cursor: pointer;
   grid-area: reserverKnap;
   background-color: #05455E;
-  width: 75px;
-  height: 25px;
+  width: 100%;
+  height: 40px;
   border-radius: 10px;
+  text-align: center;
   color: white;
+  font-weight: bold;
 }
+
+@media (max-width: 768px){
+  .hamburger {
+      display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap:0;
+    flex-direction: column;
+    background-color: var(--lilla);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -480,3 +738,5 @@ margin-left: 60px;
   margin-top: 30px;
   margin-left: 50px;
 }
+=======
+>>>>>>> 3e5c8aa75f73b9d59d70b66a01ae76cee8cb95fc
