@@ -115,7 +115,7 @@ margin-left: 39px;
   margin: 30px;
   box-shadow: 0px 5px 10px #a9a9a9;
   background-color: white;
-  width: 80%;
+  width: 240px;
   height: 300px;
   border-radius: 10px;
   padding: 10px;
@@ -159,6 +159,10 @@ margin-left: 39px;
   grid-area: beskrivelseFeed;
   z-index: 1;
   height: auto;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  padding: 5px;
+  width: 110px;
 }
 .lokationFeed {
   grid-area: lokationFeed;
