@@ -107,7 +107,7 @@ margin-left: 39px;
 /* 3 knapper på forsiden */
 .container {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 200px auto;
   grid-auto-rows: minmax(50px,auto);
   grid-gap:20px;
   grid-template-areas: "header header"
@@ -121,8 +121,8 @@ margin-left: 39px;
 
 .knap1{
   grid-area: header;
-  width: 620px;
-  height: 120px;
+  width: 420px;
+  height: 100px;
   border: none;
   color: #05454E;
   background-color: #F6E36D;
@@ -135,8 +135,8 @@ margin-left: 39px;
 
 .knap2 {
   grid-area: fundet ;
-  width: 300px;
-  height: 70px;
+  width: 200px;
+  height: 60px;
   border: none;
   color: #05454E;
   background-color: #F6E36D;
@@ -150,8 +150,8 @@ margin-left: 39px;
 
 .knap3{
   grid-area: registrer;
-  width: 300px;
-  height: 70px;
+  width: 200px;
+  height: 60px;
   border: none;
   color: #05454E;
   background-color: #F6E36D;
