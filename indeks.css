@@ -87,12 +87,6 @@ footer {
   text-align: left;
 }
 
-
-
-
-
-
-
 .footertekst {
   color: white;
   line-height: 1,4;
@@ -106,7 +100,7 @@ margin-left: 39px;
 .lærmere {
   text-decoration: underline;
 }
-.footer2{
+.footer2 {
   background-color: #2E2E2E;
   padding: 10px;
   text-align: center;
@@ -172,7 +166,6 @@ margin-left: 39px;
 
 }
 
-
 .knap1{
   grid-area: header;
   width: 420px;
@@ -187,8 +180,6 @@ margin-left: 39px;
   outline: none;
 }
 
-
-
 .knap2 {
   grid-area: fundet;
   width: 200px;
@@ -202,7 +193,6 @@ margin-left: 39px;
   font-size: 1rem;
   outline: none;
 }
-
 
 .knap3{
   grid-area: registrer;
@@ -485,7 +475,6 @@ input {
 
 
 .glemteFeed {
-
   grid-area: allFeed;
   grid-gap: 5px;
   box-shadow: 0px 5px 10px #a9a9a9;
@@ -501,9 +490,7 @@ input {
   "ikonFeed beskrivelseFeed"
   ". lokationFeed"
   ". reserverKnap";
-
 }
-
 .glemteFeed h3 {
   grid-area: objekt;
   z-index: 1;
@@ -519,7 +506,6 @@ input {
   border-radius: 5px;
   padding: 5px;
 }
-
 .ikonFeed {
   grid-area: ikonFeed;
   height: 100px;
@@ -530,37 +516,29 @@ input {
   border-radius: 5px;
   z-index: 1;
 }
-
-
 .beskrivelseFeed {
   grid-area: beskrivelseFeed;
   z-index: 1;
   height: auto;
   box-shadow: 0px 5px 5px #ececec;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   width: 160px;
 }
-/* #beskrivelse {
-  grid-area: beskrivelseFeed;
-  z-index: 1;
-  height: auto;
-  box-shadow: 0px 5px 5px #ececec;
-  border-radius: 5px;
-  padding: 5px;
-  width: 110px;
-} */
 .lokationFeed {
   grid-area: lokationFeed;
   display: flex;
   z-index: 1;
   height: 20px;
+  align-items: center;
+  padding-left: 5px;
 }
 .glemtSted {
   display: flex;
   grid-area: lokationFeed;
   filter: invert();
   height: 15px;
+  padding-left: 5px;
 }
 .reserverKnap {
   display: inline-block;
@@ -611,7 +589,6 @@ input {
   .nav-menu.active {
     left: 0;
   }
-
 }
 
 h1{
