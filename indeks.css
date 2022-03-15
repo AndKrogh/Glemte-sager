@@ -688,13 +688,14 @@ h1{
 }
 
 .hvidbox{
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-template-areas:
   "a"
   "b"
-  "c";
+  "c"; */
+  Display:flex;
   width: 350px;
   height: 600px;
   border-radius: 20px;
