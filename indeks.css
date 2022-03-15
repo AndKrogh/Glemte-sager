@@ -367,19 +367,24 @@ margin-left: 39px;
 body{
   background: white;
 }
-
-
-@media only screen and (max-width: 600px) {
-  .wrapper {
-
 <<<<<<< HEAD
+
+
+=======
+>>>>>>> parent of d95b1b4 (double fuck)
+@media only screen and (max-width: 600px) {
+  .wapper {
+
   }
 }
+<<<<<<< HEAD
 =======
   *{
 
 
 >>>>>>> 3e078a62d9f47fabcddbb849cf354eabc40225fb
+=======
+>>>>>>> parent of d95b1b4 (double fuck)
 .wrapper{
   position: absolute;
   top: 50%;
@@ -906,8 +911,6 @@ margin-left: 60px;
     cursor: pointer;
     color: #F6E36D;
   }
-
-
   .header {
     padding: 5px;
     text-align: center;
