@@ -472,6 +472,16 @@ input {
 }
 
 /* Steph kode*/
+#timedate {
+  font: small-caps 20px/100% Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+  color: var(--blå);
+  padding: 20px;
+  background-color: var(--blå);
+}
+
 #feed {
   display: inline-flex;
   flex-wrap: wrap;
