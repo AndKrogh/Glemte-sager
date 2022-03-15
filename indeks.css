@@ -810,10 +810,15 @@ margin-left: 60px;
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: black;
+    background: var(--blå);
     color: white;
     list-style: none;
     padding-top: 4rem;
+  }
+
+  .menu li a {
+    padding: 10px;
+    color: var(--hvid);
   }
 
   .showMenu {
