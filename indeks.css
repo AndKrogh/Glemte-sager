@@ -804,7 +804,6 @@ margin-left: 60px;
   .menu {
     position: fixed;
     transform: translateY(-100%);
-    transition: transform 0.2s;
     top: 0;
     left: 0;
     right: 0;
@@ -817,6 +816,9 @@ margin-left: 60px;
   }
 
   .showMenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     transform: translateY(0);
   }
 
