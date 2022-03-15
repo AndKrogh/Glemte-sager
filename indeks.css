@@ -367,13 +367,24 @@ margin-left: 39px;
 body{
   background: white;
 }
+/* <<<<<<< HEAD
+
+
 <<<<<<< HEAD
-
-
 =======
 >>>>>>> parent of d95b1b4 (double fuck)
 @media only screen and (max-width: 600px) {
   .wapper {
+======= */
+
+/* @media only screen and (max-width: 600px) {
+  .wapper {
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+>>>>>>> 4cb67710e30d527aa678287bf3452030222e7b7c
+
+>>>>>>> 837a47234183379e7859893895a8fa9ca53690a9
 
   }
 }
@@ -448,7 +459,7 @@ body{
 
 /* .searchbar {
   margin-top: 70px;
-} */
+} */ */
 
 .search-wrapper {
   display:flex;
