@@ -782,7 +782,7 @@ margin-left: 60px;
     position: fixed;
     z-index: 100;
     right: 1rem;
-    background: peachpuff;
+    background: var(--grå-ish);
     cursor: pointer;
   }
 
