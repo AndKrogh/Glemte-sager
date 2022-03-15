@@ -663,7 +663,6 @@ h1{
 }
 
 .fundettekst{
-  text-align: center;
   grid-area: b;
   font-size: 20px;
   font-style: normal;
@@ -677,7 +676,6 @@ h1{
   font-style: normal;
   color: black;
   margin-top: 10px;
-  text-align: center;
 }
 .tak{
   grid-area: c;
@@ -685,7 +683,7 @@ h1{
   font-size: 35px;
   font-style: italic;
   font: "Proxima Nova Alt", Sans-serif;
-  text-align: center;
+  
   margin-top: 10px;
 }
 
