@@ -434,13 +434,13 @@ body{
 
 .search-wrapper {
   display:flex;
-  
   flex-direction: column;
   gap: .25rem;
 }
 
 input {
   font-size: 1rem;
+  margin-top: 60px;
 }
 
 .user-cards {
