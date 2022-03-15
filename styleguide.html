@@ -2,6 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="indeks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="Script.js" charset="utf-8" defer></script>
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -14,19 +17,68 @@
     <br>
     <p>A B C D E F G H I J K L M N O P X R S T U V W X Y Z Æ Ø Å </p>
     <br>
+    <h2>H1</h2>
+    <p>font-size: 1.9rem</p>
+    <br>
+    <h2>H3</h2>
+    <p>font-weight: 600.</p>
+    <p>height: 25px</p>
+    <br>
+
 </div>
 
 <div class="farverStyle">
     <h1>Farver</h1>
     <div class="boxStyle">
-      <img src="black.padding" alt="">
-      <img src="blue.padding" alt="">
-      <img src="pink.padding" alt="">
-      <img src="yellow.padding" alt="">
-      <img src="hvid.padding" alt="">
+      <img src="black.png" alt="" height="200px">
+      <img src="blue.png" alt=""height="200px">
+      <img src="pink.png" alt=""height="200px">
+      <img src="yellow.png" alt=""height="200px">
+      <img src="hvid.png" alt=""height="200px">
     </div>
 </div>
 
-    <h1>Knapper</h1>
+<div class="knapperStyle">
+  <h1>Knapper</h1>
+  <br>
+  <p>Feed knap: <button class="reserverKnap" type="button" name="button">RESERVER</button></p>
+  <br>
+  <p>Knap 1 forside: <button class="knap1" onclick="forsideKnapLinks()">Find mine ting</button></p>
+  <br>
+  <p>Knap 1 forside: <button class="knap2" onclick="forsideKnapLinks1()">Jeg har fundet noget</button></p>
+  <br>
+  <p>Knap 1 forside: <button class="knap3" onclick="forsideKnapLinks2()">Registrer genstand</button></p>
+  <br>
+  <p>Scroll to top knap: <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button></p>
+  <br>
+  <br>
+  <h1>Knap animationer</h1>
+  <h3>Klar til kopiering: </h3>
+  <br>
+  <p>.knap2:hover, .knap3:hover { <br>
+    box-shadow: inset 200px 0 0 0 #05454E;<br>
+    cursor: pointer;<br>
+    color: #F6E36D;<br>
+  }
+  <br>
+  .knap1:hover {<br>
+     box-shadow: inset 420px 0 0 0 #05454E;<br>
+    cursor: pointer;<br>
+    color: #F6E36D;<br>
+  }</p>
+</div>
+<br>
+
+<h1>Ikoner</h1>
+<br>
+<div class="ikonerStyle">
+  <a href="https://www.facebook.com/ucl.dk/"><i class="fa fa-facebook"></i></a><br>
+  <a href="https://twitter.com/ucldk"><i class="fa fa-twitter"></i></a><br>
+  <a href="https://www.instagram.com/ucl.dk/"><i class="fa fa-instagram"></i></a><br>
+  <a href="https://www.linkedin.com/school/ucldk/"><i class="fa fa-linkedin"></i></a><br>
+</div>
+
+
+
   </body>
 </html>

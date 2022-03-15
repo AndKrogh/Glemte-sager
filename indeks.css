@@ -593,7 +593,7 @@ input {
   cursor: pointer;
   grid-area: reserverKnap;
   background-color: #05455E;
-  width: 100%;
+  width: 150px;
   height: 40px;
   border-radius: 10px;
   text-align: center;
@@ -882,8 +882,6 @@ h1{
     grid-template-columns: 140px auto;
     grid-auto-rows: minmax(50px,auto);
     grid-gap:15px;
-
-
   }
 
   .knap1{
@@ -968,4 +966,17 @@ h1{
     font-size: 12px;
   }
 
+}
+
+
+.ikonerStyle {
+  background-color: grey;
+  width: 50px;
+  height: 150px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.ikonerStyle i {
+  margin: 10px;
 }
