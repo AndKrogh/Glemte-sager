@@ -382,7 +382,6 @@ body{
 .wrapper h2{
   text-align: center;
   margin-bottom: 20px;
-  text-transform: uppercase;
   letter-spacing: 3px;
   color: #05454E;
 }
@@ -434,7 +433,7 @@ body{
 
 .search-wrapper {
   display:flex;
-  
+
   flex-direction: column;
   gap: .25rem;
 }
