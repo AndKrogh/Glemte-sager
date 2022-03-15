@@ -831,18 +831,27 @@ margin-left: 60px;
     transform: translateY(0);
   }
 
+  .overskrift-forside h1 {
+    font-size: 1.9rem;
+  }
+
+  .overskrift-forside p {
+    font-size: 0.9rem;
+  }
+
+
   .container {
     display: grid;
     grid-template-columns: 140px auto;
     grid-auto-rows: minmax(50px,auto);
-    grid-gap:10px;
+    grid-gap:15px;
     
   
   }
   
   .knap1{
     grid-area: header;
-    width: 285px;
+    width: 290px;
     height: 100px;
     font-size: 1.8rem;
     outline: none;
