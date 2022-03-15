@@ -367,8 +367,14 @@ margin-left: 39px;
 body{
   background: white;
 }
+/* <<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of d95b1b4 (double fuck)
+@media only screen and (max-width: 600px) {
+  .wapper {
+======= */
 
 /* @media only screen and (max-width: 600px) {
   .wapper {
@@ -377,14 +383,18 @@ body{
   .wrapper {
 >>>>>>> 4cb67710e30d527aa678287bf3452030222e7b7c
 
+>>>>>>> 837a47234183379e7859893895a8fa9ca53690a9
 
   }
 }
-=======
+<<<<<<< HEAD
+
   *{
 
 
 >>>>>>> 3e078a62d9f47fabcddbb849cf354eabc40225fb
+=======
+>>>>>>> parent of d95b1b4 (double fuck)
 .wrapper{
   position: absolute;
   top: 50%;
@@ -657,11 +667,12 @@ h1{
 }
 
 .skolen{
-  width: 300px;
+  width: 70%;
   height: 200px;
   box-shadow: 0 14px 28px #808080;
   border-radius: 20px;
   margin-top: 40px;
+  margin-left: 30px;
 }
 
 .fundet{
@@ -714,7 +725,7 @@ h1{
 .hvidbox{
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
   "a"
   "b"
@@ -732,7 +743,7 @@ h1{
   background-color: #05454E;
   border-color: black;
   box-shadow: 0 14px 28px #808080;
-  width: 200px;
+  width: 250px;
   height: 250px;
   margin-left: 35px;
   font-size: 10px;
@@ -780,10 +791,10 @@ h1{
 .bekræft{
   grid-area: a;
   color: #05454E;
-margin-left: 60px;
+  margin-left: 60px;
   font-size: 30px;
   font-style: italic;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .knap{
@@ -911,8 +922,6 @@ margin-left: 60px;
     cursor: pointer;
     color: #F6E36D;
   }
-
-
   .header {
     padding: 5px;
     text-align: center;
