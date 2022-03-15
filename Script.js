@@ -2,19 +2,31 @@
 
 // Anders javascript
 
-let hamburger = document.querySelector(".hamburger");
-let navMenu = document.querySelector(".nav-menu");
+let menu = document.querySelector(".menu");
+let menuItems = document.querySelectorAll(".menuItem");
+let hamburger= document.querySelector(".hamburger");
+let closeIcon= document.querySelector(".closeIcon");
+let menuIcon = document.querySelector(".menuIcon");
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-});
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
+}
 
+hamburger.addEventListener("click", toggleMenu);
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}));
+menuItems.forEach( 
+  function(menuItem) { 
+    menuItem.addEventListener("click", toggleMenu);
+  }
+)
 
 function forsideKnapLinks (){
     document.location.href="feed.html";
