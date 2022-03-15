@@ -649,12 +649,12 @@ h1{
 .fundet{
   margin-left: 20px;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
-  "a"
-  "b"
-  "c";
+  ". a ."
+  ". b ."
+  ". c .";
   color: #05454E;
   font-size: 35px;
   font-style: italic;
