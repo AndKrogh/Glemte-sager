@@ -112,19 +112,19 @@ function validate(){
     error_message.style.padding = "10px";
 
     let text;
-    if(name.length < 5){
-      text = "giv genstanden et navn jooo";
+    if(name.length < 3){
+      text = "Husk at give genstanden et navn";
       error_message.innerHTML = text;
       return false;
     }
 
 
-    if(message.length <= 5){
-      text = "tilføj lidt beskrivelse fætter guf";
+    if(message.length <= 3){
+      text = "Husk at tilføje en beskrivelse";
       error_message.innerHTML = text;
       return false;
     }
-    alert("det gik krattedeme godt!! ");
+    alert("Succes! hop tilbage til forsiden");
     return true;
   }
 
