@@ -505,9 +505,10 @@ input {
   box-shadow: 0px 5px 5px #ececec;
   border-radius: 5px;
   text-align: center;
+  height: 25px;
   background-color: var(--lilla);
   color: white;
-  font-weight: lighter;
+  font-weight: 600;
 }
 .glemteFeed p {
   box-shadow: 0px 5px 5px #ececec;
