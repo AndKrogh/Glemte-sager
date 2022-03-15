@@ -112,14 +112,14 @@ function validate(){
     error_message.style.padding = "10px";
 
     let text;
-    if(name.length < 3){
+    if(name.length < 1){
       text = "Husk at give genstanden et navn";
       error_message.innerHTML = text;
       return false;
     }
 
 
-    if(message.length <= 3){
+    if(message.length <= 1){
       text = "Husk at tilføje en beskrivelse";
       error_message.innerHTML = text;
       return false;
@@ -131,7 +131,7 @@ function validate(){
   return false;
 }
 
-    if (window.confirm('Succes! hop tilbage til forsiden'))
+    if (window.confirm('Genstanden er nu registreret! hop tilbage til forsiden'))
      {
      window.open("forside.html");
      };
