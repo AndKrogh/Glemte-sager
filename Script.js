@@ -112,14 +112,14 @@ function validate(){
     error_message.style.padding = "10px";
 
     let text;
-    if(name.length < 3){
+    if(name.length < 1){
       text = "Husk at give genstanden et navn";
       error_message.innerHTML = text;
       return false;
     }
 
 
-    if(message.length <= 3){
+    if(message.length <= 1){
       text = "Husk at tilføje en beskrivelse";
       error_message.innerHTML = text;
       return false;
@@ -131,7 +131,7 @@ function validate(){
   return false;
 }
 
-    if (window.confirm('Succes! hop tilbage til forsiden'))
+    if (window.confirm('Genstanden er nu registreret! hop tilbage til forsiden'))
      {
      window.open("forside.html");
      };
@@ -157,29 +157,29 @@ function myFunction() {
 
 
 //Steph javascript
-
-Number.prototype.pad = function(n) {
-  for (var r = this.toString(); r.length < n; r = 0 + r);
-  return r;
-};
-
-function updateClock() {
-  var now = new Date();
-  var milli = now.getMilliseconds(),
-    sec = now.getSeconds(),
-    min = now.getMinutes(),
-    hou = now.getHours(),
-    mo = now.getMonth(),
-    dy = now.getDate(),
-    yr = now.getFullYear();
-  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  var tags = ["mon", "d", "y", "h", "m", "s"],
-    corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), sec.pad(2)];
-  for (var i = 0; i < tags.length; i++)
-    document.getElementById(tags[i]).firstChild.nodeValue = corr[i];
-}
-
-function initClock() {
-  updateClock();
-  window.setInterval("updateClock()", 1);
-}
+//
+// Number.prototype.pad = function(n) {
+//   for (var r = this.toString(); r.length < n; r = 0 + r);
+//   return r;
+// };
+//
+// function updateClock() {
+//   var now = new Date();
+//   var milli = now.getMilliseconds(),
+//     sec = now.getSeconds(),
+//     min = now.getMinutes(),
+//     hou = now.getHours(),
+//     mo = now.getMonth(),
+//     dy = now.getDate(),
+//     yr = now.getFullYear();
+//   var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+//   var tags = ["mon", "d", "y", "h", "m", "s"],
+//     corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), sec.pad(2)];
+//   for (var i = 0; i < tags.length; i++)
+//     document.getElementById(tags[i]).firstChild.nodeValue = corr[i];
+// }
+//
+// function initClock() {
+//   updateClock();
+//   window.setInterval("updateClock()", 1);
+// }
