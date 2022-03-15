@@ -448,14 +448,14 @@ input {
   margin-top: 60px;
 }
 
-.user-cards {
+/* .user-cards {
   display: grid;
   grid-template-columns: repeat(autofill, minmax(150px, 1fr));
   gap: .25rem;
   margin-top: 1rem;
-}
+} */
 
-.card {
+/* .card {
   border: 1px solid black;
   background-color: white;
   padding: .5rem;
@@ -472,7 +472,7 @@ input {
 
 .hide {
   display: none;
-}
+} */
 
 /* Steph kode*/
 #timedate {
