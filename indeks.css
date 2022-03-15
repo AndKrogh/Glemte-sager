@@ -52,7 +52,7 @@ width: 120px;
 
 .nav-link {
   transition: 0.7s ease;
-  
+
 }
 
 .nav-link, a {
@@ -60,7 +60,7 @@ width: 120px;
 }
 
 .nav-link:hover {
-  color: var(--hvid);
+  color:#517A80;
 }
 
 .hamburger {
@@ -820,5 +820,5 @@ margin-left: 60px;
     transform: translateY(0);
   }
 
-  
+
 }
