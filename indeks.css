@@ -56,10 +56,11 @@ width: 120px;
 }
 
 .menu li a {
+  padding: 10px;
   color: var(--blå);
 }
 
-.nav-link:hover {
+.menuItem:hover {
   color: var(--hvid);
 }
 
