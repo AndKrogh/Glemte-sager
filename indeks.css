@@ -55,7 +55,7 @@ width: 120px;
   
 }
 
-.nav-link, a {
+.menu li a {
   color: var(--blå);
 }
 
