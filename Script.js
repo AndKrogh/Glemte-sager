@@ -126,7 +126,7 @@ function validate(){
     }
     if (window.confirm('Succes! hop tilbage til forsiden'))
      {
-     window.open('http://www.google.com', '_blank');
+     window.open("forside.html");
      };
   }
 
