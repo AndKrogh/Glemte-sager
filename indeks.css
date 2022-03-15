@@ -52,6 +52,11 @@ width: 120px;
 
 .nav-link {
   transition: 0.7s ease;
+  
+}
+
+.nav-link, a {
+  color: var(--blå);
 }
 
 .nav-link:hover {
