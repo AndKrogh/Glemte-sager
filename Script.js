@@ -124,8 +124,10 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    alert("Succes! hop tilbage til forsiden");
-    return true;
+    if (window.confirm('Succes! hop tilbage til forsiden'))
+     {
+     window.open('http://www.google.com', '_blank');
+     };
   }
 
 
