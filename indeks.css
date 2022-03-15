@@ -708,7 +708,7 @@ h1{
   box-shadow: 0 14px 28px #808080;
 }
 .kontakttak{
-  grid-area: c;
+  grid-area: auto;
   border-radius: 20px;
   background-color: #05454E;
   border-color: black;
