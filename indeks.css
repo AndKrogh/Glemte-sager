@@ -865,13 +865,13 @@ margin-left: 60px;
   
   
   .knap2:hover, .knap3:hover {
-    box-shadow: inset 200px 0 0 0 #05454E;
+    box-shadow: inset 135px 0 0 0 #05454E;
     cursor: pointer;
     color: #F6E36D;
   }
   
   .knap1:hover {
-     box-shadow: inset 420px 0 0 0 #05454E;
+     box-shadow: inset 285px 0 0 0 #05454E;
     cursor: pointer;
     color: #F6E36D;
   }
