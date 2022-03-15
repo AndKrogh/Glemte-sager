@@ -367,7 +367,11 @@ margin-left: 39px;
 body{
   background: white;
 }
-
+@media only screen and (max-width: 600px) {
+  .wapper {
+    
+  }
+}
 .wrapper{
   position: absolute;
   top: 50%;
