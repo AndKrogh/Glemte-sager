@@ -367,6 +367,13 @@ margin-left: 39px;
 body{
   background: white;
 }
+<<<<<<< HEAD
+=======
+@media only screen and (max-width: 600px) {
+  .wapper {
+
+  *{
+>>>>>>> 37f7937c08ad740f802906d3d722c353f3ffcb7c
 
 .wrapper{
   position: absolute;
@@ -585,12 +592,12 @@ h1{
 
 .kontakt{
   display: grid;
-  margin-left: 50px;
+  margin-left: 30px;
   border-radius: 20px;
   background-color: #05454E;
   border-color: black;
   box-shadow: 0 14px 28px #808080;
-  width: 500px;
+  width: 70%;
   height: 200px;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -648,14 +655,15 @@ h1{
 }
 
 .fundet{
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 100px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   grid-template-areas:
-  ". a ."
-  ". b ."
-  ". c .";
+  "a"
+  "b"
+  "c";
   color: #05454E;
   font-size: 35px;
   font-style: italic;
@@ -668,7 +676,7 @@ h1{
   font-size: 20px;
   font-style: normal;
   color: black;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .liste{
