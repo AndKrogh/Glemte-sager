@@ -62,8 +62,8 @@ width: 120px;
   color: var(--blå);
 }
 
-.nav-link:hover {
-  color: var(--hvid);
+.menuItem:hover {
+  color: #89A7AC;
 }
 
 .hamburger {
