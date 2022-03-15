@@ -60,7 +60,6 @@ width: 120px;
 }
 
 .menu li a {
-  padding: 10px;
   color: var(--blå);
 }
 
@@ -238,7 +237,7 @@ a {
 
 
 .header {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   background:#05454E;
   color: white;
@@ -354,13 +353,14 @@ margin-left: 39px;
 
 /* Regristrer genstand css */
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family:"Proxima Nova Alt", Sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body{
@@ -440,11 +440,15 @@ body{
 
 input {
   font-size: 1rem;
+<<<<<<< HEAD
   margin-top: 10px;
   position:static;
   border-color: #05454E;
   border-radius: 10px;
   height: 30px;
+=======
+  margin-top: 60px;
+>>>>>>> c642e09cf2a2e81e487973049d8e699210b249bc
 }
 
 .user-cards {
@@ -832,6 +836,60 @@ margin-left: 60px;
     justify-content: center;
     flex-direction: column;
     transform: translateY(0);
+  }
+
+  .overskrift-forside h1 {
+    font-size: 1.9rem;
+  }
+
+  .overskrift-forside p {
+    font-size: 0.9rem;
+  }
+
+
+  .container {
+    display: grid;
+    grid-template-columns: 140px auto;
+    grid-auto-rows: minmax(50px,auto);
+    grid-gap:15px;
+
+
+  }
+
+  .knap1{
+    grid-area: header;
+    width: 290px;
+    height: 100px;
+    font-size: 1.8rem;
+    outline: none;
+  }
+
+  .knap2 {
+    grid-area: fundet;
+    width: 135px;
+    height: 60px;
+    font-size: 0.8rem;
+  }
+
+  .knap3{
+    grid-area: registrer;
+    width: 135px;
+    height: 60px;
+    font-size: 0.8rem;
+  }
+
+
+
+  .knap2:hover, .knap3:hover {
+    box-shadow: inset 135px 0 0 0 #05454E;
+    cursor: pointer;
+    color: #F6E36D;
+  }
+
+  .knap1:hover {
+     box-shadow: inset 285px 0 0 0 #05454E;
+    cursor: pointer;
+    color: #F6E36D;
   }
 
 
