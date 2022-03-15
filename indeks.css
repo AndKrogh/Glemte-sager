@@ -566,6 +566,7 @@ h1{
 
 .kontakt{
   display: grid;
+  margin-left: 500px;
   border-radius: 20px;
   background-color: #05454E;
   border-color: black;
