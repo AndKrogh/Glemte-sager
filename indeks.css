@@ -369,7 +369,7 @@ body{
 }
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .wapper {
 
   *{
@@ -438,7 +438,7 @@ body{
 
 /* .searchbar {
   margin-top: 70px;
-} */
+} */ */
 
 .search-wrapper {
   display:flex;
