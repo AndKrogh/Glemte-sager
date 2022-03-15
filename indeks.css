@@ -29,6 +29,8 @@ a{
   text-decoration: none;
 }
 
+
+
 .navbar {
   min-height: 70px;
   display: flex;
@@ -52,7 +54,7 @@ width: 120px;
 
 .nav-link {
   transition: 0.7s ease;
-  
+
 }
 
 .menu li a {
@@ -823,5 +825,5 @@ margin-left: 60px;
     transform: translateY(0);
   }
 
-  
+
 }
