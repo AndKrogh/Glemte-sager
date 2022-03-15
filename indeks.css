@@ -237,7 +237,7 @@ a {
 
 
 .header {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   background:#05454E;
   color: white;
@@ -844,10 +844,10 @@ margin-left: 60px;
     grid-template-columns: 140px auto;
     grid-auto-rows: minmax(50px,auto);
     grid-gap:15px;
-    
-  
+
+
   }
-  
+
   .knap1{
     grid-area: header;
     width: 290px;
@@ -855,29 +855,29 @@ margin-left: 60px;
     font-size: 1.8rem;
     outline: none;
   }
-  
+
   .knap2 {
     grid-area: fundet;
     width: 135px;
     height: 60px;
     font-size: 0.8rem;
   }
-  
+
   .knap3{
     grid-area: registrer;
     width: 135px;
     height: 60px;
     font-size: 0.8rem;
   }
-  
-  
-  
+
+
+
   .knap2:hover, .knap3:hover {
     box-shadow: inset 135px 0 0 0 #05454E;
     cursor: pointer;
     color: #F6E36D;
   }
-  
+
   .knap1:hover {
      box-shadow: inset 285px 0 0 0 #05454E;
     cursor: pointer;
