@@ -428,12 +428,13 @@ body{
 }
 
 
-.searchbar {
+/* .searchbar {
   margin-top: 70px;
-}
+} */
 
 .search-wrapper {
   display:flex;
+  
   flex-direction: column;
   gap: .25rem;
 }
@@ -473,7 +474,6 @@ input {
   font: small-caps 20px/100% Arial, sans-serif;
   text-align: center;
   width: 100%;
-  margin: 10px auto;
   color: var(--blå);
   padding: 20px;
   background-color: var(--blå);
