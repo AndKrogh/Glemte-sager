@@ -667,11 +667,12 @@ h1{
 }
 
 .skolen{
-  width: 300px;
+  width: 70%;
   height: 200px;
   box-shadow: 0 14px 28px #808080;
   border-radius: 20px;
   margin-top: 40px;
+  margin-left: 30px;
 }
 
 .fundet{
