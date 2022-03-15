@@ -52,7 +52,7 @@ width: 120px;
 
 .nav-link {
   transition: 0.7s ease;
-  
+
 }
 
 .nav-link, a {
@@ -470,7 +470,6 @@ input {
   font: small-caps 20px/100% Arial, sans-serif;
   text-align: center;
   width: 100%;
-  margin: 10px auto;
   color: var(--blå);
   padding: 20px;
   background-color: var(--blå);
@@ -820,5 +819,5 @@ margin-left: 60px;
     transform: translateY(0);
   }
 
-  
+
 }
