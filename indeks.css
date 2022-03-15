@@ -369,12 +369,22 @@ body{
 }
 
 
+
 /* @media only screen and (max-width: 600px) {
   .wapper {
 
+@media only screen and (max-width: 600px) {
+  .wrapper {
+>>>>>>> 4cb67710e30d527aa678287bf3452030222e7b7c
+
+
+  }
+}
+=======
   *{
 
 
+>>>>>>> 3e078a62d9f47fabcddbb849cf354eabc40225fb
 .wrapper{
   position: absolute;
   top: 50%;
@@ -710,7 +720,7 @@ h1{
   "b"
   "c";
   width: 350px;
-  height: 600px;
+  height: 500px;
   border-radius: 20px;
   background-color: white;
   border-color: none;
