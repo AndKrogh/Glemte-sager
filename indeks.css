@@ -29,7 +29,9 @@ a{
   text-decoration: none;
 }
 
-
+.previous {
+  color: var(--blå);
+}
 
 .navbar {
   min-height: 70px;
@@ -432,13 +434,17 @@ body{
 
 .search-wrapper {
   display:flex;
-
   flex-direction: column;
   gap: .25rem;
 }
 
 input {
   font-size: 1rem;
+  margin-top: 60px;
+  position:static;
+  border-color: #05454E;
+  border-radius: 10px;
+  height: 30px;
 }
 
 .user-cards {
