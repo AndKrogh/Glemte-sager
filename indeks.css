@@ -29,7 +29,9 @@ a{
   text-decoration: none;
 }
 
-
+.previous {
+  color: var(--blå);
+}
 
 .navbar {
   min-height: 70px;
@@ -440,6 +442,10 @@ body{
 input {
   font-size: 1rem;
   margin-top: 60px;
+  position:static;
+  border-color: #05454E;
+  border-radius: 10px;
+  height: 30px;
 }
 
 .user-cards {
