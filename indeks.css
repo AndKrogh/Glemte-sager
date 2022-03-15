@@ -440,15 +440,12 @@ body{
 
 input {
   font-size: 1rem;
-<<<<<<< HEAD
   margin-top: 10px;
   position:static;
   border-color: #05454E;
   border-radius: 10px;
   height: 30px;
-=======
   margin-top: 60px;
->>>>>>> c642e09cf2a2e81e487973049d8e699210b249bc
 }
 
 .user-cards {
