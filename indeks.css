@@ -935,6 +935,14 @@ margin-left: 60px;
       overflow: hidden;
       font-size: 12px;
   }
-
+  .liste{
+    text-align: left;
+    padding-top: 5px;
+    font-size: 12px;
+  }
+  .botmenutekst{
+    text-align: center;
+    font-size: 12px;
+  }
 
 }
