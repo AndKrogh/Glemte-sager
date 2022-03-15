@@ -860,7 +860,7 @@ margin-left: 60px;
   .knap1{
     grid-area: header;
     width: 290px;
-    height: 100px;
+    height: 80px;
     font-size: 1.8rem;
     outline: none;
   }
@@ -868,14 +868,14 @@ margin-left: 60px;
   .knap2 {
     grid-area: fundet;
     width: 135px;
-    height: 60px;
+    height: 55px;
     font-size: 0.8rem;
   }
 
   .knap3{
     grid-area: registrer;
     width: 135px;
-    height: 60px;
+    height: 55px;
     font-size: 0.8rem;
   }
 
