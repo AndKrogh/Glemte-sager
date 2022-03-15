@@ -46,7 +46,7 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap: 12px;
 }
 
 .logo {
@@ -61,6 +61,7 @@ width: 120px;
 
 .menu li a {
   color: var(--blå);
+  padding: 20px;
 }
 
 .menuItem:hover {
@@ -683,7 +684,7 @@ h1{
   font-size: 35px;
   font-style: italic;
   font: "Proxima Nova Alt", Sans-serif;
-  
+
   margin-top: 10px;
 }
 
@@ -827,8 +828,8 @@ margin-left: 60px;
     padding-top: 4rem;
   }
 
+
   .menu li a {
-    padding: 5px;
     color: var(--hvid);
   }
 
