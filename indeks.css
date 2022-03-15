@@ -63,7 +63,7 @@ width: 120px;
 }
 
 .nav-link:hover {
-  color: var(--white);
+  color: var(--hvid);
 }
 
 .hamburger {
