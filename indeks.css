@@ -62,8 +62,8 @@ width: 120px;
   color: var(--blå);
 }
 
-.nav-link:hover {
-  color: var(--hvid);
+.menuItem:hover {
+  color: #89A7AC;
 }
 
 .hamburger {
@@ -382,7 +382,6 @@ body{
 .wrapper h2{
   text-align: center;
   margin-bottom: 20px;
-  text-transform: uppercase;
   letter-spacing: 3px;
   color: #05454E;
 }
@@ -474,7 +473,6 @@ input {
   font: small-caps 20px/100% Arial, sans-serif;
   text-align: center;
   width: 100%;
-  margin: 10px auto;
   color: var(--blå);
   padding: 20px;
   background-color: var(--blå);
