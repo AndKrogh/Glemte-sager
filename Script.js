@@ -124,6 +124,13 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
+
+    if(subject.length <= 6){
+  text = "Husk at tilføje dit serienummer";
+  error_message.innerHTML = text;
+  return false;
+}
+
     if (window.confirm('Succes! hop tilbage til forsiden'))
      {
      window.open("forside.html");
