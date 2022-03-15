@@ -584,12 +584,12 @@ h1{
 
 .kontakt{
   display: grid;
-  margin-left: 500px;
+  margin-left: 50px;
   border-radius: 20px;
   background-color: #05454E;
   border-color: black;
   box-shadow: 0 14px 28px #808080;
-  width: 300px;
+  width: 500px;
   height: 200px;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -663,11 +663,12 @@ h1{
 }
 
 .fundettekst{
+  text-align: center;
   grid-area: b;
   font-size: 20px;
   font-style: normal;
   color: black;
-  margin-top: 10px;
+  margin-top: 70px;
 }
 
 .liste{
@@ -676,6 +677,7 @@ h1{
   font-style: normal;
   color: black;
   margin-top: 10px;
+  text-align: center;
 }
 .tak{
   grid-area: c;
