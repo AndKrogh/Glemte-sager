@@ -434,6 +434,7 @@ body{
 
 .search-wrapper {
   display:flex;
+  
   flex-direction: column;
   gap: .25rem;
 }
